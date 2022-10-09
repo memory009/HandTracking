@@ -1,7 +1,7 @@
 # HandTracking
-#手部识别（基于单目摄像头）
+* 手部识别（基于单目摄像头）
 
-## 2022.3.12 （12.00-18.15）  
+## 2022.3.12 （12:00-18:15）  
 * 1.本文件中包含单目摄像头距离检测，原理是将像素值换算成厘米，具体使用了numpy里面的拟合方法，给定一堆x的值和一堆y的值可以实现对多项式的拟合。HandDistance-main.py中使用numpy进行二阶多项式进行拟合
 * 2.HandTrackingMin.py是‘最轻量化’的手部识别代码
 * 3.HandTrackingModul.py是将HandTrackingMin.py转换打包成模块，以方便其他时候使用import HandTrackingModule as htm来调用，但其实本质上是cvzone里面的一部分
