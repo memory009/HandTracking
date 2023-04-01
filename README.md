@@ -21,7 +21,7 @@
 * 从HandDistance的```main.py```的代码```from cvzone.HandTrackingModule import HandDetector```中发现，原作者是将代码创建为一个class，在最后面def main()，然后加上
   ```bash
   if __name__ == "__main__":
-  		main()
+  	main()
   ```
   从而实现在其他代码里面使用import来访问```HandTrackingModule```的效果
   
