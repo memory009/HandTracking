@@ -26,9 +26,8 @@
   从而实现在其他代码里面使用import来访问```HandTrackingModule```的效果
   
 * ```VolumeHandControl.py```核心是用```mediapipe```检测出手的位置，然后根据```hand_landmarks.png```中选择21个点关键点中需要的关键点，通过计算两点之间的距离
-$$
-d = \sqrt{X^{2}+Y^{2}}
-$$
+
+$d = \sqrt{X^{2}+Y^{2}}$
 
 
 
