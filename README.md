@@ -26,9 +26,4 @@
   从而实现在其他代码里面使用import来访问```HandTrackingModule```的效果
   
 * ```VolumeHandControl.py```核心是用```mediapipe```检测出手的位置，然后根据```hand_landmarks.png```中选择21个点关键点中需要的关键点，通过计算两点之间的距离
-
-$d = \sqrt{X^{2}+Y^{2}}$
-
-
-
-将结果导入pycaw（一个控制windows电脑声音大小的模块），默认值是（-65.25到0），对于windows电脑的0-100音量，所以使用了```numpy.interp```进行归一化处理，最终达到调声音的效果。
+$d = \sqrt{X^{2}+Y^{2}}$将结果导入pycaw（一个控制windows电脑声音大小的模块），默认值是（-65.25到0），对于windows电脑的0-100音量，所以使用了```numpy.interp```进行归一化处理，最终达到调声音的效果。
